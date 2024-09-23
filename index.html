@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="ie=edge"
+  >
+  <title>PokeSearch</title>
+
+  <!-- Pokemon Font via https://www.cdnfonts.com/pokemon-solid.font -->
+  <link
+    href="https://fonts.cdnfonts.com/css/pokemon-solid"
+    rel="stylesheet"
+  >
+
+  <!-- Twentieth Century font via Monotype.com --->
+  <link
+    href="https://cdn.fonts.net/kit/7b6b1e00-8b68-11ec-9ce3-0220834439f4/7b6b1e00-8b68-11ec-9ce3-0220834439f4.css"
+    rel="stylesheet"
+  />
+
+  <link
+    rel="stylesheet"
+    href="styles.css"
+  >
+</head>
+
+<body>
+  <header>
+    <img src="pokeball.svg">
+    <h1>PokeSearch</h1>
+  </header>
+  <form id="searchForm">
+    <input
+      id="searchText"
+      type="text"
+    >
+    <button>Search</button>
+  </form>
+  <main id="content">
+    <!-- JavaScript will put search results here. -->
+  </main>
+  <footer>
+
+    <p>
+      When an API lacks a search endpoint, we may still be able to build a basic search tool. Instead of relying on the server to perform the search, we might instead build the search feature on the client side. Assuming that we have
+      an array of searchable items (e.g. a list of names via a list endpoint), it's possible to get JavaScript to filter
+      the data based on user input. This demo shows how a search box UI can be created on the client side, and activated
+      using the JavaScript .filter() function. Created by <a href="https://nsitu.ca">Harold Sikkema</a> in the context
+      of Systems Design in the Interaction Design program at Sheridan College. Pokemon data via <a
+        href="https://pokeapi.co"
+      >PokeAPI</a></i>
+    </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
