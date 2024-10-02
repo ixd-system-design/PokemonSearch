@@ -1,5 +1,5 @@
 # PokeSearch
-[![Open in Coder](https://ixdcoder.com/open-in-coder.svg)](https://ixdcoder.com/templates/Static/workspace?name=PokeSearch&mode=auto&param.git_repo=https://bender.sheridanc.on.ca/system-design/pokesearch)
+[![Open in Coder](https://ixdcoder.com/open-in-coder.svg)](https://ixdcoder.com/templates/Static/workspace?name=PokeSearch&mode=auto&param.git_repo=https://bender.sheridanc.on.ca/system-design/pokesearch&param.code_template=custom)
 
 
 ## Client Side Search
