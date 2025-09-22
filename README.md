@@ -1,6 +1,4 @@
-# PokeSearch
-[![Open in Coder](https://ixdcoder.com/open-in-coder.svg)](https://ixdcoder.com/templates/Static/workspace?name=PokeSearch&mode=auto&param.git_repo=https://bender.sheridanc.on.ca/system-design/pokesearch&param.code_template=custom)
-
+# PokeSearch 
 
 ## Client Side Search
 When an API lacks a search endpoint, we may still be able to build a basic search tool. Instead of relying on the server to perform the search, we might instead build the search feature on the client side. Assuming that we have an array of searchable items (e.g. an array of names and/or IDs, fetched via a list endpoint), it's possible to get JavaScript to filter the data based on user input. This demo shows how a search box UI can be created on the client side, and activated using the JavaScript `.filter()` function.
